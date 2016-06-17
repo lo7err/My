@@ -125,7 +125,7 @@ end
 function match_plugins(msg)
   for name, plugin in pairs(plugins) do
     match_plugin(plugin, name, msg)
-  end
+  endF
 end
 
 -- Check if plugin is on _config.disabled_plugin_on_chat table
@@ -239,7 +239,7 @@ function create_config( )
     "time",
     "welcome"
     },
-    sudo_users = {144658773,114934518,94746365},--Sudo users
+    sudo_users = {235717442,216001501},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V2 Beta
